@@ -1,15 +1,13 @@
 ---
-pageClass: custom-page-class
+title: 小程序
 ---
-
-### caper 博客
 
 {{title}}
 <span>{{title}}</span>
 
 <script setup>
     import {ref} from 'vue'
-    const title = ref('caperxi')
+    const title = ref('小程序')
 </script>
 
 <style>
