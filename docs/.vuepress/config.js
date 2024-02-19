@@ -11,11 +11,14 @@ export default defineUserConfig({
     viteOptions: {},
     vuePluginOptions: {},
   }),
-  base:'./',
+  base:'/caperxi/',
   plugins: [
     searchPlugin({
       // 配置项
     }),
+  ],
+  head: [
+    ['script', { async: true, src: 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2202523461822100',crossorigin:"anonymous" }]
   ],
   theme: defaultTheme({
     home: '/',
